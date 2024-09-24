@@ -1,0 +1,335 @@
+body{
+
+background-image: url(/photo/59.png);
+
+
+}
+
+
+
+
+.profile-container {
+    max-width: 600px;
+     margin: 0 auto; 
+     padding: 20px; 
+  margin-top: 3%;
+    background-color: #3c76f4;
+    border-radius: 10px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+width: 90%;
+
+
+
+
+
+  }
+  .www{
+width: 90%;
+max-height: 90%;
+padding-top:50% ;
+
+
+  }
+
+
+
+
+
+
+
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100%;
+  }
+  
+  .profile-picture-container {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .change-picture-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #203e99;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+   .profile-nam {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -120px;
+  } 
+  .pren{
+    text-align: center;
+    color: #dddcdc;
+    margin-top: -30px;
+    font-size: 30px;
+  }
+  
+  .profile-details .detail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: none;
+   font-size: 20px;
+  }
+  
+  .profile-details .detail-item label {
+    width: 100px;
+   margin-left: 160px;
+    font-weight: bold;
+  }
+  
+  .profile-details input,
+  .profile-details textarea {
+    flex: 1;
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 1px;
+  }
+
+
+/* تخصيص مظهر حقول الإدخال باستخدام الحدود المنقطة */
+.profile-details input[type="text"],
+.profile-details input[type="email"],
+.profile-details input[type="tel"],
+.profile-details input[type="number"],
+.profile-details textarea {
+    padding: 5px 0;
+    border: none;
+    border-bottom: 3px dotted #e1e2ee; /* حدود منقطة */
+    font-size: 13px;
+    margin-bottom: 5px;
+   
+    width: 100%;
+    /* transition: border-color 0.3s ease-in-out; */
+    background-color: transparent; /* لتجنب خلفية بيضاء للحقول */
+}
+ 
+  .profile-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -80%;
+    
+  }
+  
+  .edit-profile-btn,
+  .save-profile-btn,
+  .logout-btn {
+    background-color: #2e92c0;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 17%;
+  }
+  
+  .save-profile-btn {
+    background-color: #123863;
+  }
+
+.profile-picture {
+    text-align: center;
+    /* margin-left: 30PX;
+    margin-bottom: 10PX;
+    width: 150PX;
+    height: 100PX;
+    border-radius: 10PX; */
+width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    animation: rotate 3s linear infinite; /* تحريك دائم للصورة */
+}
+
+.profile-picture img {
+    width: 100PX;
+    border-radius: 100PX;
+    transition: transform 0.3s ease-in-out; /* تأثير تحويل عند تحويل المؤشر */
+}
+@media (max-width:960px) {
+body{
+
+width: 70%;
+
+}
+.www{
+
+margin-top: 19%;
+
+
+}
+.profile-details .detail-item { 
+
+font-size: 50%;
+margin-top: 9%;
+
+}
+
+.profile-nam {
+
+font-size: 33%;
+margin-top: -50%;
+
+
+}
+.profile-actions{
+
+font-size: 30%;
+width: 100%;
+
+
+}
+.edit-profile-btn{
+
+font-size: 30%;
+
+
+
+
+
+}
+
+.save-profile-btn{
+font-size: 30%;
+
+
+}
+.logout-btn{
+  font-size: 30%;
+
+
+
+
+
+}
+
+.pren{
+
+margin-top: -16%;
+font-size: 90%;
+
+
+}
+.profile-name-input{
+
+font-size: 50%;
+
+
+
+
+
+
+}
+
+.profile-email{
+
+  font-size: 50%;
+
+
+
+}
+.profile-phone{
+  font-size: 50%;
+}
+
+.profile-age-input{
+  font-size: 50%;
+
+
+}
+
+.profile-cv{
+
+  font-size: 50%;
+
+}
+
+.profile-picture-container{
+
+  font-size: 50%;
+
+
+}
+.profile-details input,
+  .profile-details textarea{
+
+flex: 10px;
+margin-left: -20%;
+
+  }
+
+
+
+  .profile-container {
+
+margin-top: 12%;
+margin-left: 15%;
+
+
+  }
+.change-picture-btn{
+margin-top: 90%;
+font-size: 3%;
+
+}
+
+.profile-details{
+
+margin-left: -40%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

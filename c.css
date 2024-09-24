@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+ .container{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(17, 28, 177, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+
+
+.container button{ 
+    margin-top: 10px;
+    margin-bottom: 14px;
+    background-color: #0b2380;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* .container button.hidden{
+    background-color: transparent;
+    border-color: #c52525;
+} */
+
+.container form{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+
+.container input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+ .form-container{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+} 
+
+
+
+.toggle-container{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    border-radius: 150px 0 0 100px;
+    z-index: 1000;
+}
+
+
+.toggle-panel{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+    top: 0;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+}
+
+.toggle-left{
+    transform: translateX(-200%);
+}
+
+.container.active .toggle-left{
+    transform: translateX(0);
+}
+
+.toggle-right{
+    right: 0;
+    transform: translateX(0);
+}
+
+.container.active .toggle-right{
+    transform: translateX(200%);
+}
+
+.containersignin textarea{
+
+   
+
+
+
+}
+  .amm   { 
+
+background-color: #eae5e5;
+
+
+}
+
+.bbb{
+margin-left: 90%;
+font-size: 43px;
+color: rgb(7, 20, 116);
+
+
+
+
+
+}
+@media (max-width:1024px) {
+    .container{
+
+margin-top: -44%
+
+
+
+
+
+
+    }
+    
+}
+
+/* 222589889899 */
+.header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+background: rgb(54, 168, 209);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+height: 15%;
+
+}
+
+.navbar a {
+   
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 33px;
+    transition: .3s;
+    
+    }
+    
+     .sss{
+      margin-left: 100%;
+      font-size: px;
+      position: relative;
+      /* padding: 20px 10%; */
+      border: 1px solid #0c3a6b;
+      padding: 10px 18px 10px 18px;
+      text-decoration: none;
+      font-weight: bold;
+      color:#fff;
+      display: inline-block;
+      margin: 40px 0;
+      border-radius: 7px;
+      font-size: larger;
+    padding-left: 10px;
+       }
+     .Logo img{
+    width: 100%;
+    border-radius: 50%;
+    border: 10px solid  ;
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .navbar a:hover{
+        color: #0ef;
+    }
+/* ******************* */
+
+.Contact-form form input,form textarea{
+    margin: right 60px; ;
+        border: none;
+        outline: none;
+        width: 50%;
+        padding: 18px;
+        background: #27a2cb;
+        color: #070808;
+        font-size:1rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        border-radius: 0.5rem;
+    
+    }  
+    
+    @media (max-width:1280px) {
+
+
+
+        .navbar a {
+  font-size: 14px;
+  
+  font-weight: 300px;
+  margin-left: 23px;
+  
+  
+  
+    
+  
+  
+        }
+        a.sss{
+          font-size: 60%;
+          
+        
+          
+          
+          
+              }
+  
+  
+  
+  
+        .sss{
+  
+  font-size: 6px;
+  
+  
+  
+        }
+        .header{
+  width:100% ;
+  z-index: 100;
+  height: 14%;
+  
+  padding: 20px 10%;
+  
+  
+  
+        }
+  
+  
+        .Logo img{
+          width: 100%;
+          border-radius: 50%;
+          border: 9px solid  ;
+  
+  
+  
+  
+  
+        }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      }
+  
+      
+  
+  
+  
+
+
+
+
+
+
+

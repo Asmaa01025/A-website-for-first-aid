@@ -1,0 +1,97 @@
+h1{
+
+  margin-top: 20PX;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3em;
+  color: #996515;
+  text-shadow: 2px 2px 2px rgba(0,0,0, 0.2);
+  transition: all 0.3s ease-in-out;
+height: 50px;
+}
+
+
+
+
+h1:hover {
+  color: #362e26;
+  transform: scale(1.2);
+  position: relative;
+  animation: float 0.5s ease-in-out alternate infinite; /* زخرفة تطفو الحروف */
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.doctor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.doctor-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+  width: calc(25% - 30px);
+  margin: 15px;
+}
+
+.doctor-card:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  color: #333;
+}
+
+.specialty, .contact, .availability {
+  color: #666;
+  margin: 8px 0;
+}
+
+.contact-btn, .contact-link {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.contact-btn {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.contact-link {
+  color: #007BFF;
+}
+
+.contact-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+

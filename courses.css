@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* * {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Roboto","Arial",sans-serif;
+} */
+.heed {
+
+margin-top: 120px;
+
+
+
+}
+
+
+.heed h1 {
+    color: #07284b;
+    height: 70px;
+    text-align: center;
+    font-size: 70px;
+}
+.heed0 h2 {
+    height: 0px;
+    text-align: center;
+    font-size: 29px;
+    color: #0c3a6b;
+}
+
+
+.meals .meal {
+    background-color:rgb(43, 141, 176);
+    width: 33.33333333333333%;
+    height: 370px;
+    float: left;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 10px solid #fff;
+}
+
+
+.video {
+    margin-top: 30px;
+}
+
+.meals .meal h3 {
+    height: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+@media  (max-width: 1000px) {
+    .meals .meal {
+        width: 100%;
+    }
+}
+
+.header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+background: rgb(54, 168, 209);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+height: 15%;
+
+}
+
+.navbar a {
+   
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 33px;
+    transition: .3s;
+    
+    }
+    
+     .sss{
+      margin-left: 100%;
+      font-size:50px;
+      position: relative;
+      
+      border: 1px solid #0c3a6b;
+      padding: 19px 15px 10px 18px;
+      text-decoration: none;
+      font-weight: bold;
+      color:#fff;
+      display: inline-block;
+      margin: 40px 0;
+      border-radius: 6px;
+      font-size: larger;
+    padding-left: 10px;
+       }
+     .Logo img{
+    width: 100%;
+    border-radius: 50%;
+    border: 10px solid  ;
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .navbar a:hover{
+        color: #0ef;
+    }
+
+
+
+
+    a.sss{
+        font-size: 100%;
+        
+        
+        
+        
+        
+            }
+
+
+            @media (max-width:1284px) {
+
+
+
+                .navbar a {
+          font-size: 15px;
+          
+          font-weight: 300px;
+          margin-left: 23px;
+          
+          
+          
+          
+            
+          
+          
+                }
+
+                a.sss{
+                    font-size: 70%;
+                    width: 9%;
+                  
+                    
+                    
+                    
+                        }
+
+                .sss{
+          
+          font-size: 6px;
+          
+          
+          
+                }
+                .header{
+          width:100% ;
+          z-index: 100;
+          height: 15%;
+          
+          padding: 20px 10%;
+          
+          
+          
+                }
+          
+          
+                .Logo img{
+                  width: 100%;
+                  border-radius: 50%;
+                  border: 9px solid  ;
+          
+          
+          
+          
+          
+                }
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+              }
+          
+          
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
